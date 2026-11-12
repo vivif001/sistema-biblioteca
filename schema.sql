@@ -32,7 +32,7 @@ INSERT INTO item (codigo, titulo, tipo, autor, edicao, disponivel) VALUES
 ('L003', 'Estruturas de Dados e Algoritmos', 'livro', 'Michael T. Goodrich', '6a ed.', TRUE);
 
 INSERT INTO usuario (nome, tipo, limite_itens) VALUES
-('Joao Silva', 'aluno', 3),
+('Ingrid Vitoria', 'aluno', 3),
 ('Maria Oliveira', 'professor', 5);
 
 INSERT INTO emprestimo (item_id, usuario_id, data_retirada, data_devolucao_prevista, data_devolucao, valor_multa) VALUES
